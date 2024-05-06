@@ -1,432 +1,551 @@
 <!DOCTYPE html>
-<html  >
+<html lang="en">
+
 <head>
-  <!-- Site made with Mobirise Website Builder v5.8.4, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.8.4, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/icon.jpg" type="image/x-icon">
-  <meta name="description" content="Networking advisor">
-  
-  
-  <title>Halcyon</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Bellota+Text:300,300i,400,400i,700,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellota+Text:300,300i,400,400i,700,700i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Halcyon Business Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  
-  
-  
+    <!-- Favicon -->
+    <link href="assets/img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Optima:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/card.css" rel="stylesheet">
+
+    <style>
+        .network-service-card{
+            background: linear-gradient(rgba(43, 43, 70, 0.6), rgba(43, 43, 70, 0.6)), url(assets/img/network.png);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .security-service-card{
+            background: linear-gradient(rgba(43, 43, 70, 0.6), rgba(43, 43, 70, 0.6)), url(assets/img/security.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .virtualization-service-card{
+            background: linear-gradient(rgba(43, 43, 70, 0.6), rgba(43, 43, 70, 0.6)), url(assets/img/virtualization.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .cloud-service-card{
+            background: linear-gradient(rgba(43, 43, 70, 0.6), rgba(43, 43, 70, 0.6)), url(assets/img/cloud.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .microsoft-service-card{
+            background: linear-gradient(rgba(43, 43, 70, 0.6), rgba(43, 43, 70, 0.6)), url(assets/img/microsoft.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
+
 <body>
-  
-  <section data-bs-version="5.1" class="menu menu1 cid-sFGMsvHDIa" once="menu" id="menu1-1">
-    
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border primary-text" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-5" href="https://mobiri.se">Halcyon</a></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>9604 Makiposa In Fort Woth Tx 76177</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>817 287 1365</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>support@halcyonbs.com</small>
                 </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <img src="assets/img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="index.html">Home</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-black display-7" href="index.html#features12-6" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Solutions</a><div class="dropdown-menu" aria-labelledby="dropdown-585"><a class="dropdown-item text-black text-primary display-7" href="networks.html">Networks</a><a class="dropdown-item text-black text-primary display-7" href="security.html">Security &amp; Compliance</a><a class="dropdown-item text-black text-primary display-7" href="virtualization.html">Virtualization/VDI</a><a class="dropdown-item text-black text-primary display-7" href="cloud.html">Cloud Services</a><a class="dropdown-item text-black text-primary display-7" href="page5.html">Microsoft Solutions</a></div></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-7" href="index.html#form5-d">Blog</a>
-                    </li><li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="contact.html">Contacts</a></li></ul>
-                <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-twitter socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-    </nav>
-</section>
-
-<section data-bs-version="5.1" class="header1 cid-sFGMfPD7iT mbr-fullscreen mbr-parallax-background" id="header1-0">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-10">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Halcyon</strong></h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7"><strong>
-                    Provider of a high-quality tailored, and comprehensive technology solutions.&nbsp;</strong></p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features1 cid-ubKFA6aImu" id="features1-0">
-    
-
-    
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                    <strong>Why us?</strong></h3>
-                <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-7">
-                    What's why clients prefere us</h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-features mobi-mbri"></span>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="networks.html" class="dropdown-item">Networks</a>
+                            <a href="security.html" class="dropdown-item">Security & Compliance</a>
+                            <a href="virtualization.html" class="dropdown-item">Virtualization/VDI</a>
+                            <a href="cloud.html" class="dropdown-item">Cloud Services</a>
+                            <a href="microsoft.html" class="dropdown-item">Microsoft Solutions</a>
                         </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>Extensive Expertise and Experience</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">We have a proven track record of delivering high-quality solutions for startups, enterprises, and Fortune 500 companies across multiple industries.</p>
                     </div>
+                    <a href="partners.html" class="nav-item nav-link">Partners</a>
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
+                <!--a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a-->
             </div>
-            <div class="card col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-idea mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>Tailored and Innovative Solutions</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">We provide customized technology solutions that address the unique challenges and requirements of our clients, whether they are on-premise or cloud-based.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-briefcase mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>Comprehensive Service Offerings</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">Halcyon offers a wide range of services, including cloud migration, cybersecurity, enterprise application development, IT infrastructure optimization, data analytics, and managed IT services.&nbsp;</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-3">
-                <div class="card-wrapper">
-                    <div class="card-box align-center">
-                        <div class="iconfont-wrapper">
-                            <span class="mbr-iconfont mobi-mbri-growing-chart mobi-mbri"></span>
-                        </div>
-                        <h5 class="card-title mbr-fonts-style display-7"><strong>Commitment to Quality and Efficiency</strong></h5>
-                        <p class="card-text mbr-fonts-style display-7">We have a rigorous screening and selection process to ensure that we only provide the highest-quality talent to our clients.</p>
+        </nav>
+
+        <div id="banner" class="container-fluid py-5 mb-5 banner">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white mb-3 animated slideInDown">Halcyon</h1>
+                        <p class="fs-4 text-white mb-4 animated slideInDown">Halcyon Business Solutions is your trusted partner in the hybrid technology environment</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <!-- Navbar & Hero End -->
 
-<section data-bs-version="5.1" class="features16 cid-ubLh90Z134" id="features17-5">
-    
 
-    
-    
-    <div class="container-fluid">
-        <div class="content-wrapper">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-4">
-                    <div class="image-wrapper">
-                        <img src="assets/images/whynetworkscalabilityisimportantforyoursme.jpg" alt="Mobirise Website Builder">
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="assets/img/intro.jpg" alt="" style="object-fit: cover;">
                     </div>
                 </div>
-                <div class="col-12 col-lg">
-                    <div class="text-wrapper">
-                        <h6 class="card-title mbr-fonts-style display-5"><strong>Halcyon is the trusted partner for networking jobs.</strong></h6>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-4">
-                            At Halcyon, we not only promise excellence but deliver a future-proof infrastructure, ensuring our clients are equipped for the evolving digital landscape. Whether transitioning to the cloud, enhancing network capabilities, or securing critical assets, Halcyon Business Solutions is your trusted partner in the hybrid technology environment.</p>
-                        
+                <div class="col-lg-8 wow fadeInRight" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">Halcyon is the trusted partner for networking jobs</h1>
+                    <p class="mb-4">At Halcyon, we not only promise excellence but deliver a future-proof infrastructure, ensuring our clients are equipped for the evolving digital landscape. Whether transitioning to the cloud, enhancing network capabilities, or securing critical assets.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Extensive Expertise and Experience</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Tailored and Innovative Solutions</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Comprehensive Service Offerings</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Commitment to Quality and Efficiency</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Trusted and Reliable Partner</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <!-- About End -->
 
-<section data-bs-version="5.1" class="features4 cid-ubKIsHzcJz" id="features4-4">
-    
-    
-    <div class="container-fluid">
-        <div class="mbr-section-head">
-            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Services</strong></h4>
-            <h5 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">Our comprehensive suite of services spans from initial assessments to design, implementation, and troubleshooting, ensuring optimal performance and enhanced security across all IT environments.</h5>
-        </div>
-        <div class="row mt-4">
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/computer-networks-with-different-users.webp" alt="Mobirise Website Builder" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-7"><strong><a href="networks.html" class="text-black">Networks</a></strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Our networking solutions are designed to build resilient, scalable, and efficient infrastructures</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/cyber-security-and-compliance-web.jpg" alt="Mobirise Website Builder" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-7"><strong><a href="security.html" class="text-black">Security &amp; Compliance</a></strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">You don't have to code to create your own
-                            site. Select one of available themes in the Mobirise Site Maker.</p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/virtual-desktops-760.jpg" alt="Mobirise Website Builder" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-7"><strong><a href="virtualization.html" class="text-black">Virtualization/VDI</a></strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Select the theme that suits you. Each theme
-                            in the Mobirise Website Software contains a set of unique blocks.<br></p>
-                    </div>
-                    
-                </div>
-            </div>
 
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInDown" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Services</h6>
+                <h1 class="mb-2">Our Services</h1>
+                <p class="mb-3 px-lg-5">Our comprehensive suite of services spans from initial assessments to design, implementation, and troubleshooting, ensuring optimal performance and enhanced security across all IT environments.</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card">
+                        <div class="front network-service-card">
+                          <p>Network</p>
+                        </div>
+                        <div class="back">
+                          <div>
+                            <p>Our networking solutions are designed to build resilient, scalable, and efficient infrastructures.</p>
+                            <a href="networks.html" class="button">Read more</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="card">
+                        <div class="front security-service-card">
+                          <p>Security & Compliance</p>
+                        </div>
+                        <div class="back">
+                          <div>
+                            <p>Secure and compliant IT environments tailored to protect your assets and data.</p>
+                            <a href="security.html" class="button">Read more</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="card">
+                        <div class="front virtualization-service-card">
+                          <p>Virtualization/VDI</p>
+                        </div>
+                        <div class="back">
+                          <div>
+                            <p>Optimizing IT operations through state-of-the-art virtualization technologies</p>
+                            <a href="virtualization.html" class="button">Read more</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-0">
+                    &nbsp;
+                </div>
+                <div class="col-lg-5 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="card">
+                        <div class="front cloud-service-card">
+                          <p>Cloud Services</p>
+                        </div>
+                        <div class="back">
+                          <div>
+                            <p>Leveraging the power of cloud computing to boost efficiency and scalability</p>
+                            <a href="cloud.html" class="button">Read more</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="card">
+                        <div class="front microsoft-service-card">
+                          <p>Microsoft Solutions</p>
+                        </div>
+                        <div class="back">
+                          <div>
+                            <p>Comprehensive Microsoft services from infrastructure to cloud migration</p>
+                            <a href="microsoft.html" class="button">Read more</a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-sm-0">
+                    &nbsp;
+                </div>
+            </div>
         </div>
     </div>
-</section>
+    <!-- Service End -->
 
-<section data-bs-version="5.1" class="features4 cid-ubLuF8CqB2" id="features4-6">
-    
-    
-    <div class="container">
+    <!-- Reasons Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInDown" data-wow-delay="0.1s">
+                <h1 class="mb-3">Why us?</h1>
+                <p>What's why clients prefere us</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="flex">
+                        <img src="assets/img/experience.png" class="p-2" width="60px">
+                        <h5 class="mt-3">Extensive Expertise and Experience</h5>
+                    </div>
+                    <p>We have a proven track record of delivering high-quality solutions for startups, enterprises, and Fortune 500 companies across multiple industries.</p>
+                </div>
+                <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="flex">
+                        <img src="assets/img/innovation.png" class="p-2" width="60px">
+                        <h5 class="mt-3">Tailored and Innovative Solutions</h5>
+                    </div>
+                    <p>We provide customized technology solutions that address the unique challenges and requirements of our clients, whether they are on-premise or cloud-based.</p>
+                </div>
+                <div class="col-lg-12 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="flex">
+                        <img src="assets/img/comprehensive.png" class="p-2" width="60px">
+                        <h5 class="mt-3">Comprehensive Service Offerings</h5>
+                    </div>
+                    <p>Halcyon offers a wide range of services, including cloud migration, cybersecurity, enterprise application development, IT infrastructure optimization, data analytics, and managed IT services. This comprehensive portfolio allows us to be a one-stop-shop for our clients, simplifying their technology needs and ensuring seamless integration.</p>
+                </div>
+                <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="flex">
+                        <img src="assets/img/efficiency.png" class="p-2" width="60px">
+                        <h5 class="mt-3">Commitment to Quality and Efficiency</h5>
+                    </div>
+                    <p>We have a rigorous screening and selection process to ensure that we only provide the highest-quality talent to our clients. Our flexible engagement models, competitive rates, and focus on reducing total cost of ownership (TCO) make us a cost-effective choice for our clients.</p>
+                </div>
+                <div class="col-lg-6 col-sm-6 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="flex">
+                        <img src="assets/img/trusted.png" class="p-2" width="60px">
+                        <h5 class="mt-3">Trusted and Reliable Partner</h5>
+                    </div>
+                    <p>Halcyon has consistently been recognized for our commitment to our clients, our community, and our purpose. Our clients trust us to be a strategic partner in their digital transformation journey, providing the expertise and support they need to succeed.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Reasons End -->
+
+    <!-- Contact Start -->
+    <div class="container-xxl py-5 wow fadeInUp bg-light" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="primary-text mb-2">Get in touch with us</h1>
+                <p>We will respond you as soom as possible</p>
+            </div>
+            <form>
+                <div class="row g-2">
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control bg-transparent" id="name" placeholder="Company Name">
+                            <label for="name">Your Company</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="email" class="form-control bg-transparent" id="email" placeholder="Company Email">
+                            <label for="email">Company Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="phone" class="form-control bg-transparent" id="phone" placeholder="Company Phone">
+                            <label for="phont">Company Phone</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <select class="form-select bg-transparent" id="service">
+                                <option value="network">Networks</option>
+                                <option value="security">Security & Compliance</option>
+                                <option value="virtualization">Virtualization/VDI</option>
+                                <option value="cloud">Cloud Services</option>
+                                <option value="microsoft">Microsoft Solutions</option>
+                                <option value="general">Geneal inquiries</option>
+                                <option value="partner">Partnership</option>
+                            </select>
+                            <label for="service">Service</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                            <label for="message">Special Request</label>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn btn-outline-primary p-2" type="submit">Send request</button>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <!-- Contact Start -->
+
+    <!-- Process Start -->
+    <div class="container-xxl py-5">
+        <div class="container pt-5">
+            <div class="row gy-5 gx-4 justify-content-center">
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center primary-bg rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-user-shield fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Costumer protection</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center primary-bg rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-dollar-sign fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Balanced cost</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInRight" data-wow-delay="0.7s">
+                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center primary-bg rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                            <i class="fa fa-clock fa-3x text-white"></i>
+                        </div>
+                        <h5 class="mt-4">Service 24/7</h5>
+                        <hr class="w-25 mx-auto bg-primary mb-1">
+                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Process Start -->
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Partners</h6>
+                <h1 class="mb-5">Our partners</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="assets/img/partners/cisco-logo.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="assets/img/partners/att-logo.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="assets/img/partners/samsung-logo.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="assets/img/partners/microsoft-logo.png" alt="">
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <br>
+                <a class="btn btn-outline-primary p-2" href="partners.html">See all partners</a>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
         
-        <div class="row mt-4">
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/managed-services-banner-3.jpg" alt="Mobirise Website Builder" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-7"><strong><a href="cloud.html" class="text-black">Cloud Services</a></strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Leveraging the power of cloud computing to boost efficiency and scalability</p>
-                    </div>
-                    
+
+    <!-- Footer Start -->
+    <div class="container-fluid dark-bg text-light footer pt-3 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-4">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <img src="assets/img/logo-white.png" width="80%" class="p-2">
                 </div>
-            </div>
-            <div class="item features-image сol-12 col-md-6 col-lg-4">
-                <div class="item-wrapper">
-                    <div class="item-img">
-                        <img src="assets/images/azure-657x371.png" alt="Mobirise Website Builder" title="">
-                    </div>
-                    <div class="item-content">
-                        <h5 class="item-title mbr-fonts-style display-7"><strong><a href="microsoft.html" class="text-black">Microsoft Solutions</a></strong></h5>
-                        
-                        <p class="mbr-text mbr-fonts-style mt-3 display-7">Comprehensive Microsoft services from infrastructure to cloud migration</p>
-                    </div>
-                    
-                </div>
-            </div>
-            
-
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features14 cid-sFGNHRkFsi" id="features15-5">
-
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <span class="mbr-iconfont m-auto mobi-mbri-protect mobi-mbri"></span>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style mb-2 display-5"><strong>Customer protection</strong></h4>
-                        <h5 class="card-text mbr-fonts-style display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et lobortis lacus.</h5>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>9604 Makiposa In Fort Woth Tx 76177</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>817 287 13650</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>support@halcyonbs.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <span class="mbr-iconfont m-auto mobi-mbri-cash mobi-mbri"></span>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style mb-2 display-5"><strong>Balanced cost</strong></h4>
-                        <h5 class="card-text mbr-fonts-style display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et lobortis lacus.</h5>
-                    </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Services</h4>
+                    <a class="btn btn-link" href="networks.html">Networks</a>
+                    <a class="btn btn-link" href="security.html">Security & Compliance</a>
+                    <a class="btn btn-link" href="virtualization">Virtualization/VDI</a>
+                    <a class="btn btn-link" href="cloud">Cloud Services</a>
+                    <a class="btn btn-link" href="microsoft">Microsoft Solutions</a>
                 </div>
-            </div>
-            <div class="card col-12 col-md-6 col-lg-4">
-                <div class="card-wrapper">
-                    <span class="mbr-iconfont m-auto mobi-mbri-clock mobi-mbri"></span>
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style mb-2 display-5"><strong>Full time service</strong></h4>
-                        <h5 class="card-text mbr-fonts-style display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et lobortis lacus.</h5>
-                    </div>
-
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features11 cid-sFGOTvnvck" id="features12-6">
-
-    
-    
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg">
-                <div class="card-wrapper">
-                    <div class="card-box">
-                        <h4 class="card-title mbr-fonts-style mb-4 display-2">
-                            <strong>About us</strong></h4>
-                        <p class="mbr-text mbr-fonts-style mb-4 display-7">
-                            At Halcyon, we pride ourselves on delivering cutting-edge technology solutions that are tailored to meet the specific needs of our clients.<br></p>
-                        
-                        <div class="mbr-section-btn mb-4"><a class="btn btn-info display-4" href="https://mobiri.se">Read More</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 md-pb">
-                <div class="image-wrapper">
-                    <img src="assets/images/digital-transformation-blog-image.jpg" alt="Mobirise Website Builder">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Company</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="partners.html">Partners</a>
+                    <a class="btn btn-link" href="">Blog</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="form5 cid-sFGTcFRqw0" id="form5-d">
-    
-    
-    <div class="container">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Write Us a Message</strong></h3>
-            
-        </div>
-        <div class="row justify-content-center mt-4">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="JsVQEucVHgXA7CfKEvYMSkT6yE6IGBUMR+7r+jJycDceUEQJO0GVBR/+FVfhWw/HQMKygWSLCuJzV1J70IItl/q9M7hCKehJAhSJKFd/NOa2QTOPDYcVTZdhFLkS/FS2">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
-                            the form!</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
-                            problem!</div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">HalcyonBS</a>. 2021, All Right Reserved.
                     </div>
-                    <div class="dragArea row">
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form5-d">
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="">Blog</a>
+                            <a href="partners.html">Partners</a>
+                            <a href="about.html">About</a>
                         </div>
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="E-mail" data-form-field="email" class="form-control" value="" id="email-form5-d">
-                        </div>
-                        <div class="col-12 form-group mb-3" data-for="url">
-                            <input type="url" name="url" placeholder="Your Site" data-form-field="url" class="form-control" value="" id="url-form5-d">
-                        </div>
-                        <div class="col-12 form-group mb-3" data-for="textarea">
-                            <textarea name="textarea" placeholder="Message" data-form-field="textarea" class="form-control" id="textarea-form5-d"></textarea>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-secondary display-4">Send message</button></div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
-</section>
+    <!-- Footer End -->
 
-<section data-bs-version="5.1" class="footer2 cid-ubLyXIX5zJ" once="footers" id="footer2-8">
 
-    
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
-    
-    
-    <div class="container">
-        <div class="row mbr-white">
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Contact us</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><strong>Email</strong>: sample@gmail.com</li>
-                    <li class="mbr-text item-wrap"><strong>Phone</strong>: 555-55-5555</li>
-                    <li class="mbr-text item-wrap"><strong>Address</strong>: Some valid address</li>
-                    <li class="mbr-text item-wrap">PO. BOX 4534</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Solutions</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><a href="networks.html" class="text-primary">Networks</a></li>
-                    <li class="mbr-text item-wrap"><a href="security.html" class="text-primary">Security &amp; Compliance</a></li>
-                    <li class="mbr-text item-wrap"><a href="virtualization.html" class="text-primary">Virtualization/VDI</a></li><li class="mbr-text item-wrap"><a href="cloud.html" class="text-primary">Cloud Services</a></li><li class="mbr-text item-wrap"><a href="page5.html" class="text-primary">Microsoft Solutions</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Our company</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><a href="about.html" class="text-primary">About us</a></li><li class="mbr-text item-wrap">Privacy Policy</li><li class="mbr-text item-wrap"><a href="contact.html" class="text-primary">Contact</a></li>
-                    <li class="mbr-text item-wrap"><br></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Social</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap">Facebook</li><li class="mbr-text item-wrap">LinkedIn</li>
-                </ul>
-            </div>
-            <div class="col-12 mt-4">
-                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7">
-                    © Copyright 2021 Halcyon - All Rights Reserved
-                </p>
-            </div>
-        </div>
-    </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/1104904" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/offline-website-builder.html">Offline Website Builder</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
-  
-  
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/wow/wow.min.js"></script>
+    <script src="assets/lib/easing/easing.min.js"></script>
+    <script src="assets/lib/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/lib/parallax/parallax.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>

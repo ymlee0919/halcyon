@@ -1,207 +1,351 @@
 <!DOCTYPE html>
-<html  >
+<html lang="en">
+
 <head>
-  <!-- Site made with Mobirise Website Builder v5.8.4, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.8.4, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/icon.jpg" type="image/x-icon">
-  <meta name="description" content="Networking advisor">
-  
-  
-  <title>Microsoft</title>
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/parallax/jarallax.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Bellota+Text:300,300i,400,400i,700,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellota+Text:300,300i,400,400i,700,700i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Network - Halcyon Business Solutions</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  
-  
-  
+    <!-- Favicon -->
+    <link href="assets/img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Optima:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/timeline.css" rel="stylesheet">
+
+    <style>
+        .hero-header {
+            background: linear-gradient(rgba(27, 27, 42, 0.7), rgba(27, 27, 42, 0.7)), url(assets/img/main-bg.png);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
 </head>
+
 <body>
-  
-  <section data-bs-version="5.1" class="menu menu1 cid-ubLO6Zt35V" once="menu" id="menu1-12">
-    
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border primary-text" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
 
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-        <div class="container-fluid">
-            <div class="navbar-brand">
-                
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-5" href="https://mobiri.se">Halcyon</a></span>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>9604 Makiposa In Fort Woth Tx 76177</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>817 287 1365</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>support@halcyonbs.com</small>
                 </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <img src="assets/img/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="index.html">Home</a></li><li class="nav-item dropdown"><a class="nav-link link dropdown-toggle text-black display-7" href="index.html#features12-6" data-toggle="dropdown-submenu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Solutions</a><div class="dropdown-menu" aria-labelledby="dropdown-585"><a class="dropdown-item text-black text-primary display-7" href="networks.html">Networks</a><a class="dropdown-item text-black text-primary display-7" href="security.html">Security &amp; Compliance</a><a class="dropdown-item text-black text-primary display-7" href="virtualization.html">Virtualization/VDI</a><a class="dropdown-item text-black text-primary display-7" href="cloud.html">Cloud Services</a><a class="dropdown-item text-black text-primary display-7" href="page5.html">Microsoft Solutions</a></div></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black display-7" href="index.html#form5-d">Blog</a>
-                    </li><li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="contact.html">Contacts</a></li></ul>
-                <div class="icons-menu">
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-facebook socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-twitter socicon"></span>
-                    </a>
-                    <a class="iconfont-wrapper" href="https://mobiri.se" target="_blank">
-                        <span class="p-2 mbr-iconfont socicon-instagram socicon"></span>
-                    </a>
-                    
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="networks.html" class="dropdown-item">Networks</a>
+                            <a href="security.html" class="dropdown-item">Security & Compliance</a>
+                            <a href="virtualization.html" class="dropdown-item">Virtualization/VDI</a>
+                            <a href="cloud.html" class="dropdown-item">Cloud Services</a>
+                            <a href="microsoft.html" class="dropdown-item">Microsoft Solutions</a>
+                        </div>
+                    </div>
+                    <a href="partners.html" class="nav-item nav-link">Partners</a>
+                    <a href="blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                
+                <!--a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a-->
             </div>
-        </div>
-    </nav>
-</section>
+        </nav>
 
-<section data-bs-version="5.1" class="header1 cid-ubLO70uYa8 mbr-fullscreen mbr-parallax-background" id="header1-13">
-
-    
-
-    
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-10">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Microsoft Solutions</strong></h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7">Leveraging the power of cloud computing to boost efficiency and scalability<br></p>
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="content8 cid-ubLO71yQOE" id="content8-14">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="counter-container col-md-12 col-lg-10">
-                
-                <div class="mbr-text mbr-fonts-style display-7">
-                    <ul><li><strong>Active Directory &amp; Azure: </strong>Seamless integration and management.
-</li><li><strong>• M365 Migration: </strong>Efficient migration strategies for Microsoft 365.
-</li><li><strong>• ADFS/SSO &amp; Domain Services: </strong>Secure single sign-on and domain consolidation.
-</li><li><strong>• Cloud Migration: </strong>Expertise in transitioning to cloud-based solutions.</li>
-                    </ul>
+        <div id="banner" class="container-fluid py-5 mb-5 banner">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white mb-3 animated slideInDown">Microsoft Solutions</h1>
+                        <p class="fs-4 text-white mb-4 animated slideInDown">Comprehensive Microsoft services from infrastructure to cloud migration</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+    <!-- Navbar & Hero End -->
 
-<section data-bs-version="5.1" class="content6 cid-ubLPOuNIVT" id="content6-17">
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 col-lg-8">
-                <hr class="line">
-                <p class="mbr-text align-center mbr-fonts-style my-4 display-7">At Halcyon, we are committed to enabling your success through superior technological services. Our team of experts is ready to assist you in navigating the complexities of modern IT environments with our comprehensive, customized solutions.</p>
-                <hr class="line">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="form8 cid-ubLO728bFj" id="form8-15">
-    
-    
-    <div class="container">
-        <div class="mbr-section-head">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                <strong>Contacts</strong>
-            </h3>
-            
-        </div>
-        <div class="row justify-content-center mt-4">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="SWAnN2U16hjMFoMaQZsZg+0x5xYi1Z+HtGBSPYJla1wfjwErLjWa7mJGDymuIwun7mNRdELYtAFpbmQBvU7coJSk3hTHAyS1TUHbgwE1AVRRiTORdK2cPaYdNwbxQ6Fg">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out the form!</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
-                    </div>
-                    <div class="dragArea row">
-                        <div class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form8-15">
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form8-15">
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center">
-                            <button type="submit" class="btn btn-primary display-4">Submit</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="footer2 cid-ubLO72TQCe" once="footers" id="footer2-16">
-
-    
-
-    
-    
-    <div class="container">
-        <div class="row mbr-white">
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Contact us</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><strong>Email</strong>: sample@gmail.com</li>
-                    <li class="mbr-text item-wrap"><strong>Phone</strong>: 555-55-5555</li>
-                    <li class="mbr-text item-wrap"><strong>Address</strong>: Some valid address</li>
-                    <li class="mbr-text item-wrap">PO. BOX 4534</li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Solutions</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><a href="networks.html" class="text-primary">Networks</a></li>
-                    <li class="mbr-text item-wrap"><a href="security.html" class="text-primary">Security &amp; Compliance</a></li>
-                    <li class="mbr-text item-wrap"><a href="virtualization.html" class="text-primary">Virtualization/VDI</a></li><li class="mbr-text item-wrap"><a href="cloud.html" class="text-primary">Cloud Services</a></li><li class="mbr-text item-wrap"><a href="page5.html" class="text-primary">Microsoft Solutions</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Our company</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap"><a href="about.html" class="text-primary">About us</a></li><li class="mbr-text item-wrap">Privacy Policy</li><li class="mbr-text item-wrap"><a href="contact.html" class="text-primary">Contact</a></li>
-                    <li class="mbr-text item-wrap"><br></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3">
-                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-                    <strong>Social</strong></h5>
-                <ul class="list mbr-fonts-style display-4">
-                    <li class="mbr-text item-wrap">Facebook</li><li class="mbr-text item-wrap">LinkedIn</li>
-                </ul>
-            </div>
-            <div class="col-12 mt-4">
-                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7">
-                    © Copyright 2021 Halcyon - All Rights Reserved
+    <!-- Services Start -->
+    <div class="container-xxl py-2">
+        <div class="container wow fadeInUp pb-4" data-wow-delay="0.1s">
+            <div class="text-center" >
+                <p class="pb-3">
+                    At Halcyon, we pride ourselves on delivering cutting-edge technology solutions that are tailored to meet the specific needs of our clients. Our comprehensive suite of services spans from initial assessments to design, implementation, and troubleshooting, ensuring optimal performance and enhanced security across all IT environments.
                 </p>
+                <hr class="w-25 mx-auto bg-primary mb-1">    
+            </div>
+            <h6 class="section-title bg-white text-start text-primary">Microsoft Solutions &nbsp; </h6>
+        </div>
+    </div>
+    <!-- Services End -->       
+    
+    <div class="container pb-4">
+        <div class="uk-timeline">
+            <div class="uk-timeline-item pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="uk-timeline-icon">
+                    <div class="align-items-center justify-content-center primary-bg rounded-circle shadow uk-timeline-dot"></div>
+                </div>
+                <div class="uk-timeline-content">
+                    <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle">
+                                <h5 class="uk-card-title">Identity Services:</h5>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="uk-text-success">Expertise in Active Directory/Azure for secure user management and authentication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-timeline-item pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="uk-timeline-icon">
+                    <div class="align-items-center justify-content-center primary-bg rounded-circle shadow uk-timeline-dot"></div>
+                </div>
+                <div class="uk-timeline-content">
+                    <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle">
+                                <h5 class="uk-card-title">Office <strong>365</strong> Migration:</h5>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="uk-text-success">Seamless migration to Microsoft 365 for enhanced productivity and collaboration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-timeline-item pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="uk-timeline-icon">
+                    <div class="align-items-center justify-content-center primary-bg rounded-circle shadow uk-timeline-dot"></div>
+                </div>
+                <div class="uk-timeline-content">
+                    <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle">
+                                <h5 class="uk-card-title">Single Sign-On (SSO):</h5>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="uk-text-success">Implementation of ADFS and other SSO solutions for simplified access management.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-timeline-item pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="uk-timeline-icon">
+                    <div class="align-items-center justify-content-center primary-bg rounded-circle shadow uk-timeline-dot"></div>
+                </div>
+                <div class="uk-timeline-content">
+                    <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle">
+                                <h5 class="uk-card-title">Assessment & Remediation:</h5>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="uk-text-success">Assessment of Microsoft environments, health checks, and remediation services.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-timeline-item pb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="uk-timeline-icon">
+                    <div class="align-items-center justify-content-center primary-bg rounded-circle shadow uk-timeline-dot"></div>
+                </div>
+                <div class="uk-timeline-content">
+                    <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle">
+                                <h5 class="uk-card-title">Certificate Authority:</h5>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="uk-text-success">Setup and management of certificate authority environments for secure communication.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="uk-timeline-item wow fadeInUp" data-wow-delay="0.1s">
+                <div class="uk-timeline-icon">
+                    <div class="align-items-center justify-content-center primary-bg rounded-circle shadow uk-timeline-dot"></div>
+                </div>
+                <div class="uk-timeline-content">
+                    <div class="uk-card uk-card-default uk-margin-medium-bottom uk-overflow-auto">
+                        <div class="uk-card-header">
+                            <div class="uk-grid-small uk-flex-middle">
+                                <h5 class="uk-card-title">Migration Services:</h5>
+                            </div>
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="uk-text-success">On-premise and cloud migration services for domain consolidation and infrastructure optimization.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-xxl py-1">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <hr class="w-25 mx-auto bg-primary mb-1">
+                <p class="py-4">
+                    At Halcyon, we are committed to enabling your success through superior technological services. Our team of experts is ready to assist you in navigating the complexities of modern IT environments with our comprehensive, customized solutions.
+                </p>
+                    
             </div>
         </div>
     </div>
-</section><section class="display-7" style="padding: 0;align-items: center;justify-content: center;flex-wrap: wrap;    align-content: center;display: flex;position: relative;height: 4rem;"><a href="https://mobiri.se/1104904" style="flex: 1 1;height: 4rem;position: absolute;width: 100%;z-index: 1;"><img alt="" style="height: 4rem;" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="></a><p style="margin: 0;text-align: center;" class="display-7">&#8204;</p><a style="z-index:1" href="https://mobirise.com/builder/ai-website-creator.html">Best AI Website Creator</a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
-  
-  
+
+    <!-- Buttons Start -->
+    <div class="container-xxl py-1">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <a class="btn btn-outline-aux" href="public/pdf/HalcyonBusinessSolutions.pdf">Download Techinal Capabilities</a> &nbsp;  
+                <a class="btn btn-outline-primary" href="contact.html">Contact us</a>
+            </div>
+        </div>
+    </div>
+    <!-- Buttons Start -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid dark-bg text-light footer pt-3 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-4">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <img src="assets/img/logo-white.png" width="80%" class="p-2">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Contact</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>9604 Makiposa In Fort Woth Tx 76177</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>817 287 13650</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>support@halcyonbs.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Services</h5>
+                    <a class="btn btn-link" href="networks.html">Networks</a>
+                    <a class="btn btn-link" href="security.html">Security & Compliance</a>
+                    <a class="btn btn-link" href="virtualization">Virtualization/VDI</a>
+                    <a class="btn btn-link" href="cloud">Cloud Services</a>
+                    <a class="btn btn-link" href="microsoft">Microsoft Solutions</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-3">Company</h5>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="partners.html">Partners</a>
+                    <a class="btn btn-link" href="">Blog</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">HalcyonBS</a>. 2021, All Right Reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Home</a>
+                            <a href="">Blog</a>
+                            <a href="partners.html">Partners</a>
+                            <a href="about.html">About</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/lib/wow/wow.min.js"></script>
+    <script src="assets/lib/easing/easing.min.js"></script>
+    <script src="assets/lib/smoothscroll/smooth-scroll.js"></script>
+    <script src="assets/lib/parallax/parallax.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
